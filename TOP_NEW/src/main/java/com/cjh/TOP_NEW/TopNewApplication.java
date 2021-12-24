@@ -17,6 +17,7 @@ public class TopNewApplication {
 	@GetMapping("/hello")
 	public String hello(@RequestParam(value="name", defaultValue="World") String name) {
 		return "hello " + name;
+		//testtest
 	}
 
 }
